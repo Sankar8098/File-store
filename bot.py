@@ -622,7 +622,7 @@ welcome_re = re.compile('/start|/help|/about', re.IGNORECASE)
 
 
 # TRIGGERS
-@Bot.on(events.NewMessage(pattern=welcome_re))
+@Bot.on_message(events.NewMessage(pattern=welcome_re))
 async def welcome(e):
     chat = await e.get_chat()
     if e.raw_text.lower() == "/start" or e.raw_text.lower() == "/help":
@@ -653,7 +653,7 @@ async def welcome(e):
         await client.edit_message(mess, "<b>😔Invailid User Api Token!!</b>")
 
 
-@Bot.on(events.NewMessage())
+@Bot.on_message(events.NewMessage())
 async def handler(e):
     chat = await e.get_chat()
     if re.search("/api|/start ", e.raw_text):
@@ -684,7 +684,7 @@ async def handler(e):
     await client.edit_message(mess, message=caption, buttons=buttons)
 
 
-@Bot.on(events.NewMessage(pattern="/api"))
+@Bot.on_message(events.NewMessage(pattern="/api"))
 async def api(e):
     chat = await e.get_chat()
     try:
@@ -705,7 +705,7 @@ async def api(e):
 
 
 # CALLBACK-QUERY
-@Bot.on(events.CallbackQuery(pattern="reusr"))
+@Bot.on_callback_query(events.CallbackQuery(pattern="reusr"))
 async def rem_user(e):
     mess = await e.get_message()
     caption = mess.raw_text
@@ -714,7 +714,7 @@ async def rem_user(e):
     await client.edit_message(mess, caption)
 
 
-@Bot.on(events.CallbackQuery(pattern="api"))
+@Bot.on_callback_query(events.CallbackQuery(pattern="api"))
 async def rem_user(e):
     mess = await e.get_message()
     await client.edit_message(mess, api_message, buttons=api_button)
