@@ -616,7 +616,7 @@ async def button(bot: Client, cmd: CallbackQuery):
 
 
 # INITIALISATION
-client.parse_mode = 'html'
+Bot.parse_mode = 'html'
 commands = ["/start", "/api", "/help", "/about", ""]
 welcome_re = re.compile('/start|/help|/about', re.IGNORECASE)
 
