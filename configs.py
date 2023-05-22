@@ -5,47 +5,40 @@ from f import *
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "9840531"))
-	API_HASH = os.environ.get("API_HASH", "2ac10377616df23907e134df14bdf08b")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5722099580:AAFYJLFHsPrtIaNAIjkKsXb4duEplLJ2WaI")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "All_In_One_Tm_BoT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001739848270"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "960432019"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Bave999:Bave999@cluster0.1aheaa1.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001392852605")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001739848270")
+	API_ID = int(os.environ.get("API_ID", "14553761"))
+	API_HASH = os.environ.get("API_HASH", "a1cab49dcdfd2eb3bea5e5a552c5d479")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Bot Username")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "DB Channel Id"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "604152966"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "MongoDB URL")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "Logs Channel Id")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
-	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
+	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-	BASE_SITE = os.environ.get("BASE_SITE", "tamizhmasters.com")
-	DOMAIN = os.environ.get("DOMAIN", "urlsopen.com")
+	BASE_SITE = os.environ.get("BASE_SITE", "kpslink.in")
+	DOMAIN = os.environ.get("DOMAIN", "kpslink.in")
 	ABOUT_BOT_TEXT = f"""
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
 🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-📝 **Language:** [Python3](https://www.python.org)
+👑 **Owner:** @Nanthakps
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+📢 **Updates Channel:** @KPSLink
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+👥 **Support Group:** @KPSLinkGroup
 
-👑 **Owner:** @Bavabee
-
-🧑🏻‍💻 **Developer:** @HMF_Owner_1
-
-👥 **Support Group:** @HangOverXD
-
-📢 **Updates Channel:** @simplysouth_links 
 """
 	ABOUT_DEV_TEXT = f"""
-**🌐 This Bot Was Devloped By** : @HMF_Owner_1"""
+**🌐 This Bot Was Devloped By** : @Nanthakps"""
 	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
             
-Ex: `/apikey 6LZq851sXofffPHugiKQq`
+Example : `/apikey 6LZq851sXofffPHugiKQq`
 
 Current Website: {base_site}
 
@@ -55,7 +48,7 @@ PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
 START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
 START_TEXT = """Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
 
-I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
+I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [KPS Link](https://kpslink.in). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [KPS Link](https://kpslink.in) ......
 
 Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 
@@ -67,24 +60,21 @@ Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ : [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ : [KPS Link](https://kpslink.in)"""
 
 HELP_TEXT = """Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:
 
-Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
+Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [KPS Link](https://kpslink.in) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
 
-Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ.
+Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [KPS Link](https://kpslink.in) Aᴄᴄᴏᴜɴᴛ.
 
-Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
+Exᴀᴍᴘʟᴇ : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba` """
 
 ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
 
-🔠 Language  : Python3
-📚 Library   : Teleton And Pyrogram
-👑 Owner     : @Bavabee
-🧑🏻‍💻 Developer : @HMF_Owner_1
+👑 Owner     : @Nanthakps
 
-©️Powered By @simplysouth_links """
+©️Powered By @KPSLink """
 
 
 

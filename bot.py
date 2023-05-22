@@ -42,11 +42,11 @@ from plugins.users_api import get_user, update_user_info
 
 MediaList = {}
 
-START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
+START_MEDIA = "https://telegra.ph/file/496e7ae942556eb072ab6.jpg"
 
 START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})**
 
-I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) ......
+I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [KPS Link](https://kpslink.in). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [KPS Link](https://kpslink.in) ......
 
 **Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs** :
 
@@ -58,34 +58,28 @@ I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ B�
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ - [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://tamizhmasters.com)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ - [KPS Link](https://kpslink.in)"""
 
 ABOUT_BOT_TEXT = f"""
 This is Permanent File/Links Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](https://t.me/tmfile_short_bot)
+🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-📝 **Language:** [Python3](https://www.python.org)
+👑 **Owner:** @Nanthakps
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+📢 **Updates Channel:** @KPSLink
 
-👑 **Owner:** @Bavabee
-
-🧑🏻‍💻 **Developer:** @HMF_Owner_1
-
-👥 **Support Group:** @HangOverXD
-
-📢 **Updates Channel:** @simplysouth_links 
+👥 **Support Group:** @KPSLinkGroup
 """
 
 HELP_TEXT = """**Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:**
 
-Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
+Sᴛᴇᴘ Nᴏ 1 : Jᴜsᴛ Cʟɪᴄᴋ 'Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ' Bᴜᴛᴛᴏɴ Aɴᴅ Cᴏᴘʏ Yᴏᴜʀ [KPS Link](https://kpslink.in) Aᴄᴄᴏᴜɴᴛ Aᴘɪ Tᴏᴋᴇɴ.
 
-Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [Tᴀᴍɪᴢʜᴀ Mᴀsᴛᴇʀ](http://tamizhmasters.com) Aᴄᴄᴏᴜɴᴛ.
+Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ [KPS Link](https://kpslink.in) Aᴄᴄᴏᴜɴᴛ.
 
-Exᴀᴍᴘʟᴇ : `/api s18ғsjsn737d19f08f382h19d9sd473774hd58` """
+Exᴀᴍᴘʟᴇ : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba` """
 
 
 Bot = Client(
@@ -135,12 +129,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+                    InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://kpslink.in/member/tools/api"),
                 ],
                 [
-                    InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://tamizhmasters.com/member/links"),
-                    InlineKeyboardButton("Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
-                    InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://tamizhmasters.com/member/users/profile"),
+                    InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://kpslink.in/member/links"),
+                    InlineKeyboardButton("Aᴘɪ", url="https://kpslink.in/member/tools/api"),
+                    InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://kpslink.in/member/users/profile"),
                 ],
                 [
                     InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
@@ -184,7 +178,7 @@ async def main(bot: Client, message: Message):
         user = await get_user(message.from_user.id)
 
         if not user["shortener_api"]:
-            return await message.reply_text(f"Fɪʀsᴛ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ Wᴇʙsɪᴛᴇ Aᴘɪ\n\n[Cʟɪᴄᴋ Tᴏ Cᴏɴɴᴇᴄᴛ](https://tamizhmasters.com/member/tools/api)")
+            return await message.reply_text(f"Fɪʀsᴛ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Yᴏᴜʀ Wᴇʙsɪᴛᴇ Aᴘɪ\n\n[Cʟɪᴄᴋ Tᴏ Cᴏɴɴᴇᴄᴛ](https://kpslink.in/member/tools/api)")
 
         await add_user_to_database(bot, message)
 
@@ -194,7 +188,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/HangOverXD)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/KPSLinkGroup)",
                                      disable_web_page_preview=True)
             return
 
@@ -222,7 +216,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{str_to_b64(file_er_id)}"
+            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=KPSLink_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -397,12 +391,12 @@ async def start_back(_, query: CallbackQuery):
 
 START_BACK_BUTTON = [
         [
-            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
+            InlineKeyboardButton("Cʟɪᴄᴋ Tᴏ Gᴇᴛ Aᴘɪ", url="https://kpslink.in/member/tools/api"),
         ],
         [
-            InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://tamizhmasters.com/member/links"),
-            InlineKeyboardButton("Aᴘɪ", url="https://tamizhmasters.com/member/tools/api"),
-            InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://tamizhmasters.com/member/users/profile"),
+            InlineKeyboardButton("Aʟʟ Lɪɴᴋs", url="https://kpslink.in/member/links"),
+            InlineKeyboardButton("Aᴘɪ", url="https://kpslink.in/member/tools/api"),
+            InlineKeyboardButton("PʀᴏFɪʟᴇ", url="https://kpslink.in/member/users/profile"),
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
@@ -424,7 +418,7 @@ async def help(_, query: CallbackQuery):
 
 HELP_BUTTON = [
         [
-            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/All_In_One_Tm_BoT?start=Jdisk_NjI3"),
+            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/KPSLink/13"),
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ 🔘", callback_data="HELP_BUT"),
@@ -442,7 +436,7 @@ async def about(_, query: CallbackQuery):
 
 ABOUT_BUTTON = [
         [
-            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/All_In_One_Tm_BoT?start=Jdisk_NjI3"),
+            InlineKeyboardButton("📁 Vɪᴅᴇᴏ Tᴜᴛᴏʀɪᴀʟ 📽️", url="https://t.me/KPSLink/13"),
         ],
         [
             InlineKeyboardButton("Hᴇʟᴘ", callback_data="HELP_BUT"),
@@ -492,13 +486,13 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⚡ 𝖢𝖫𝖨𝖢𝖪 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ⚡", url="https://tamizhmasters.com/member/tools/api")
+                        InlineKeyboardButton("⚡ 𝖢𝖫𝖨𝖢𝖪 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ⚡", url="https://kpslink.in/member/tools/api")
                     ],
                     [
-                        InlineKeyboardButton("❓ 𝖧𝖮𝖶 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ❓", url="https://tamizhmasters.com")
+                        InlineKeyboardButton("❓ 𝖧𝖮𝖶 𝖳𝖮 𝖢𝖮𝖭𝖭𝖤𝖢𝖳 ❓", url="https://kpslink.in")
                     ],
                     [
-                        InlineKeyboardButton("⚙️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚙️", url="https://tamizhmasters.com")
+                        InlineKeyboardButton("⚙️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚙️", url="https://kpslink.in")
                     ],
                     [
                         InlineKeyboardButton("✅ 𝖠𝖡𝖮𝖴𝖳 𝖡𝖮𝖳 ✅", callback_data="aboutdevs")
@@ -517,7 +511,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/HangOverXD).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/KPSLinkGroup).",
                         disable_web_page_preview=True
                     )
                     return
@@ -540,7 +534,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/HangOverXD).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/KPSLinkGroup).",
                     disable_web_page_preview=True
                 )
                 return
@@ -550,8 +544,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HangOverXD"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/KPSLinkGroup"),
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/KPSLink")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
