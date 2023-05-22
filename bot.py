@@ -64,7 +64,7 @@ ABOUT_BOT_TEXT = f"""
 This is Permanent File/Links Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [Files Store Bot](https://t.me/{KPSFileStoreBot})
 
 👑 **Owner:** @Nanthakps
 
@@ -83,7 +83,7 @@ Exᴀᴍᴘʟᴇ : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba` """
 
 
 Bot = Client(
-    name=Config.BOT_USERNAME,
+    name=Config.KPSFileStoreBot,
     in_memory=True,
     bot_token=Config.BOT_TOKEN,
     api_id=Config.API_ID,
@@ -216,7 +216,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=KPSLink_{str_to_b64(file_er_id)}"
+            share_link = f"https://telegram.me/{Config.KPSFileStoreBot}?start=KPSLink_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))

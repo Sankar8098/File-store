@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from configs import Config
 
 client = AsyncIOMotorClient(Config.DATABASE_URL)
-db = client[Config.BOT_USERNAME]
+db = client[Config.KPSFileStoreBot]
 col = db["users"]
 
 async def get_user(user_id):
