@@ -1,5 +1,3 @@
-# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
-
 import datetime
 from configs import Config
 from database.database import Database

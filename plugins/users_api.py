@@ -38,4 +38,3 @@ async def get_all_users():
 
 async def delete_user(user_id):
     await col.delete_one({'user_id': int(user_id)})
-

@@ -1,5 +1,3 @@
-# (c) @HMF_Owner_1
-
 from configs import Config
 from database.database import db
 from pyrogram import Client
@@ -14,4 +12,3 @@ async def add_user_to_database(bot: Client, cmd: Message):
                 int(Config.LOG_CHANNEL),
                 f"#NEW_USER: \n\nNew User [{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id}) started @{Config.BOT_USERNAME} !!"
             )
-

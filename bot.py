@@ -41,7 +41,7 @@ MediaList = {}
 
 START_MEDIA = "https://telegra.ph/file/496e7ae942556eb072ab6.jpg"
 
-START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})**
+START_TEXT = """**Hello [{}](tg://user?id={})**
 
 I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ Fᴏʀ [KPS Link](https://kpslink.in).
 Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ [KPS Link](https://kpslink.in)..

@@ -1,5 +1,3 @@
-# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
-
 import time
 import string
 import random
