@@ -1,6 +1,5 @@
 import os
 
-
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "14553761"))
 	API_HASH = os.environ.get("API_HASH", "a1cab49dcdfd2eb3bea5e5a552c5d479")
