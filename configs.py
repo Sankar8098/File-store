@@ -1,8 +1,4 @@
-# © Telegram @HMF_Owner_1, GitHub @ThiruXD 
-
 import os
-from f import *
-
 
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "14553761"))
@@ -45,7 +41,7 @@ Current Shortener API: `{shortener_api}`**"""
 
 PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
 START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
-START_TEXT = """Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
+START_TEXT = """**Hɪ/Hᴇʟʟᴏ [{}](tg://user?id={})
 
 I'ᴍ Uʟᴛʀᴀ Fᴀsᴛ Tᴇʟᴇɢʀᴀᴍ Cᴏᴜʟᴅ Sᴛᴏʀᴀɢᴇ Bᴏᴛ  Fᴏʀ [KPS Link](https://kpslink.in). Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇs/Lɪɴᴋs Aɴᴅ Sᴇʟᴇᴄᴛ Mᴇᴛʜᴏᴅ Wᴀɪᴛ Fᴇᴡ Sᴇᴄᴏɴᴅs Bᴏᴛ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅ Tᴏ Oᴜʀ Sᴇʀᴠᴇʀ Aɴᴅ Gᴇɴᴀʀᴀᴛᴇ  [KPS Link](https://kpslink.in) ......
 
@@ -59,7 +55,7 @@ Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛᴇᴅ Fᴏʀᴍᴀᴛs :
 
 Mᴏʀᴇ Fᴏʀᴍᴀᴛs Cᴏᴍᴍɪɴɢ Sᴏᴏɴ ......
 
-Pᴏᴡᴇʀᴇᴅ Bʏ : [KPS Link](https://kpslink.in)"""
+Pᴏᴡᴇʀᴇᴅ Bʏ : [KPS Link](https://kpslink.in)**"""
 
 HELP_TEXT = """**Hᴏᴡ Tᴏ Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Wᴇʙsɪᴛᴇ:
 
@@ -69,11 +65,11 @@ Sᴛᴇᴘ Nᴏ 2 : Tʜᴇɴ Cᴏᴍ Aɢᴀɪɴ Hᴇʀᴇ Aɴᴅ Usᴇ /api Tᴏ
 
 Exᴀᴍᴘʟᴇ : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba`**"""
 
-ABOUT_TEXT = """🤖 Name :  Tamizh Masters Link Convertor
+ABOUT_TEXT = """**🤖 Name :  Tamizh Masters Link Convertor
 
 👑 Owner     : @Nanthakps
 
-©️Powered By @KPSLink """
+©️Powered By @KPSLink**"""
 
 
 
