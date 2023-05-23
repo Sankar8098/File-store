@@ -20,7 +20,7 @@
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
         },
-        "KPSFileStoreBot": {
+        "BOT_USERNAME": {
             "description": "Your Bot Username which you sent to @BotFather (Without [@])"
         },
         "DB_CHANNEL": {
