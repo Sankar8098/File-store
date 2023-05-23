@@ -35,13 +35,13 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 """
 	ABOUT_DEV_TEXT = f"""
 **🌐 This Bot Was Devloped By** : @Nanthakps"""
-	SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/apikey api`
+	SHORTENER_API_MESSAGE = """**To add or update your Shortner Website API,
             
-Example : `/apikey 6LZq851sXofffPHugiKQq`
+Example : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba`
 
 Current Website: {base_site}
 
-Current Shortener API: `{shortener_api}`"""
+Current Shortener API: `{shortener_api}`**"""
 
 PREFIX = ["/", ".", "?", "#", "@", "₹", "+", ":", "!", "^", "|"]
 START_MEDIA = "https://telegra.ph/file/d20dee1ba93fc0b0c05ac.jpg"
