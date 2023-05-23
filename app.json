@@ -1,24 +1,24 @@
 {
     "name": "Telegram Files Store Bot",
-    "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
+    "description": "A Telegram Files Store Bot in Pyrogram by @KPSLink",
     "keywords": [
         "telegram",
         "files",
         "store",
         "bot"
     ],
-    "repository": "https://github.com/Tr6666/PyroFilesStoreBot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "repository": "https://github.com/Tamilupdates/KPS-File-Store-Bot",
+    "website": "https://telegram.dog/KPSLink",
+    "success_url": "https://telegram.me/KPSLinkSupport",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org"
         },
         "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
+            "description": "Get this from @BotFather"
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username which you sent to @BotFather (Without [@])"
@@ -37,7 +37,7 @@
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
+            "description": "Logs Channel ID for some Tracking. Example: -100123456789"
         },
         "BANNED_USERS": {
             "description": "Banned unwanted members",
@@ -64,7 +64,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
