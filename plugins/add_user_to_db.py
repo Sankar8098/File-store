@@ -1,5 +1,3 @@
-# (c) @HMF_Owner_1
-
 from configs import Config
 from database.database import db
 from pyrogram import Client
