@@ -423,7 +423,7 @@ async def help(_, query: CallbackQuery):
 
 HELP_BUTTON = [
         [
-            InlineKeyboardButton("📁 Video Tutorial 📽️", url="https://t.me/KPSLinkV2"),
+            InlineKeyboardButton("📁 Video Tutorial 📽️", url="https://t.me/KPSLinkV2/31"),
         ],
         [
             InlineKeyboardButton("Help 🔘", callback_data="HELP_BUT"),
@@ -441,7 +441,7 @@ async def about(_, query: CallbackQuery):
 
 ABOUT_BUTTON = [
         [
-            InlineKeyboardButton("📁 Video Tutorial 📽️", url="https://t.me/KPSLink/13"),
+            InlineKeyboardButton("📁 Video Tutorial 📽️", url="https://t.me/KPSLink/31"),
         ],
         [
             InlineKeyboardButton("Help", callback_data="HELP_BUT"),
